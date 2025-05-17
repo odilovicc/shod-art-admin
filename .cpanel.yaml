@@ -1,0 +1,13 @@
+deployment:
+
+   tasks:
+
+      - export DEPLOYPATH=(здесь путь директории) /home/hopakau1/git.hopaka.uz/
+      - /bin/cp -R * $DEPLOYPATH
+      - npm run build
+      - /bin/cp -R dist/* $DEPLOYPATH
+      - /bin/cp -R .env $DEPLOYPATH
+      - /bin/cp -R .env.local $DEPLOYPATH
+      - /bin/cp -R .env.development $DEPLOYPATH
+      - /bin/cp -R .env.production $DEPLOYPATH
+      
