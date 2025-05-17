@@ -1,0 +1,26 @@
+.app-badge {
+  display: inline-block;
+  padding: 2px 10px;
+  border-radius: 999px;
+  font-size: 13px;
+  font-weight: 500;
+  background: var(--color-border);
+  color: var(--color-text-secondary);
+  line-height: 1.5;
+}
+.app-badge--success {
+  background: #e6f9ed;
+  color: #1aaf5d;
+}
+.app-badge--warning {
+  background: #fff7e6;
+  color: #e6a23c;
+}
+.app-badge--danger {
+  background: #ffeaea;
+  color: var(--color-danger);
+}
+.app-badge--info {
+  background: #e6f0ff;
+  color: var(--color-primary);
+} 

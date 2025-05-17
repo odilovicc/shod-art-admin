@@ -1,0 +1,31 @@
+.app-input {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+.app-input__label {
+  font-size: 14px;
+  color: var(--color-text-secondary);
+  margin-bottom: 2px;
+}
+.app-input__field {
+  padding: 10px 14px;
+  border: 1px solid var(--color-border);
+  border-radius: 8px;
+  font-size: 16px;
+  outline: none;
+  transition: border-color 0.2s;
+  background: var(--color-bg-input);
+  color: var(--color-text);
+}
+.app-input__field:focus {
+  border-color: var(--color-primary);
+}
+.app-input__field--error {
+  border-color: var(--color-danger);
+}
+.app-input__error {
+  color: var(--color-danger);
+  font-size: 13px;
+  margin-top: 2px;
+} 
